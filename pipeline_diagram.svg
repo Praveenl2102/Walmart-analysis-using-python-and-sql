@@ -75,8 +75,4 @@
   <!-- Tools footer -->
   <text x="600" y="320" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#6B7280">
     Tools: Python (Pandas, SQLAlchemy) · MySQL · PostgreSQL · SQL · VS Code
-  </text>
-  <text x="600" y="345" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#9CA3AF">
-    Original diagram — adapt stages to reflect your actual project once built
-  </text>
 </svg>
