@@ -1,0 +1,82 @@
+<svg viewBox="0 0 1200 420" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#4B5563"/>
+    </marker>
+  </defs>
+
+  <rect x="0" y="0" width="1200" height="420" fill="#F9FAFB"/>
+
+  <text x="600" y="45" text-anchor="middle" font-family="Arial, sans-serif" font-size="26" font-weight="bold" fill="#1F2937">
+    Retail Sales Data Pipeline
+  </text>
+  <text x="600" y="72" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" fill="#6B7280">
+    End-to-End SQL + Python Analysis Workflow
+  </text>
+
+  <!-- Stage 1: Data Source -->
+  <rect x="40" y="150" width="180" height="110" rx="12" fill="#3B82F6"/>
+  <text x="130" y="190" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" font-weight="bold" fill="white">Kaggle Dataset</text>
+  <text x="130" y="212" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#DBEAFE">Raw retail sales data</text>
+  <text x="130" y="230" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#DBEAFE">CSV via Kaggle API</text>
+
+  <line x1="220" y1="205" x2="270" y2="205" stroke="#4B5563" stroke-width="2" marker-end="url(#arrow)"/>
+
+  <!-- Stage 2: Python Cleaning -->
+  <rect x="270" y="150" width="180" height="110" rx="12" fill="#10B981"/>
+  <text x="360" y="182" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" font-weight="bold" fill="white">Python (Pandas)</text>
+  <text x="360" y="204" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#D1FAE5">Clean &amp; validate data</text>
+  <text x="360" y="222" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#D1FAE5">Handle nulls, duplicates</text>
+  <text x="360" y="240" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#D1FAE5">Feature engineering</text>
+
+  <line x1="450" y1="205" x2="500" y2="205" stroke="#4B5563" stroke-width="2" marker-end="url(#arrow)"/>
+
+  <!-- Stage 3: Database -->
+  <rect x="500" y="150" width="180" height="110" rx="12" fill="#F59E0B"/>
+  <text x="590" y="182" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" font-weight="bold" fill="white">MySQL / PostgreSQL</text>
+  <text x="590" y="204" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#FEF3C7">Load via SQLAlchemy</text>
+  <text x="590" y="222" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#FEF3C7">Structured tables</text>
+  <text x="590" y="240" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#FEF3C7">Indexed for querying</text>
+
+  <line x1="680" y1="205" x2="730" y2="205" stroke="#4B5563" stroke-width="2" marker-end="url(#arrow)"/>
+
+  <!-- Stage 4: SQL Analysis -->
+  <rect x="730" y="150" width="180" height="110" rx="12" fill="#8B5CF6"/>
+  <text x="820" y="182" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" font-weight="bold" fill="white">SQL Analysis</text>
+  <text x="820" y="204" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#EDE9FE">Revenue &amp; profit trends</text>
+  <text x="820" y="222" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#EDE9FE">Category performance</text>
+  <text x="820" y="240" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#EDE9FE">Customer patterns</text>
+
+  <line x1="910" y1="205" x2="960" y2="205" stroke="#4B5563" stroke-width="2" marker-end="url(#arrow)"/>
+
+  <!-- Stage 5: Insights -->
+  <rect x="960" y="150" width="200" height="110" rx="12" fill="#EF4444"/>
+  <text x="1060" y="182" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" font-weight="bold" fill="white">Business Insights</text>
+  <text x="1060" y="204" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#FEE2E2">Top branches &amp; products</text>
+  <text x="1060" y="222" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#FEE2E2">Peak sales periods</text>
+  <text x="1060" y="240" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#FEE2E2">Dashboard-ready output</text>
+
+  <!-- Step numbers -->
+  <circle cx="130" cy="140" r="14" fill="#1F2937"/>
+  <text x="130" y="145" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="white">1</text>
+
+  <circle cx="360" cy="140" r="14" fill="#1F2937"/>
+  <text x="360" y="145" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="white">2</text>
+
+  <circle cx="590" cy="140" r="14" fill="#1F2937"/>
+  <text x="590" y="145" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="white">3</text>
+
+  <circle cx="820" cy="140" r="14" fill="#1F2937"/>
+  <text x="820" y="145" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="white">4</text>
+
+  <circle cx="1060" cy="140" r="14" fill="#1F2937"/>
+  <text x="1060" y="145" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="white">5</text>
+
+  <!-- Tools footer -->
+  <text x="600" y="320" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#6B7280">
+    Tools: Python (Pandas, SQLAlchemy) · MySQL · PostgreSQL · SQL · VS Code
+  </text>
+  <text x="600" y="345" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#9CA3AF">
+    Original diagram — adapt stages to reflect your actual project once built
+  </text>
+</svg>
