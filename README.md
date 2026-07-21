@@ -1,5 +1,7 @@
 # Walmart Data Analysis: End-to-End SQL + Python
+## 📊 Dashboard Preview
 
+![Walmart Sales Dashboard](Dashboard.png)
 ## Project Overview
 
 
